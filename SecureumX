@@ -77,3 +77,18 @@ int main() {
     cout << "- At least one digit" << endl;
     cout << "- At least one special character (e.g., !, @, #, $, etc.)" << endl;
     cout << endl;
+ cout << "Enter your password: ";
+    cin >> password;
+
+    string strength = checkPasswordStrength(password);
+    cout << "Password Strength: " << strength << endl;
+
+    if (strength != "Strong") {
+        cout << "Here's how you can improve your password:" << endl;
+        printFeedback(password);
+    } else {
+        cout << "Your password is strong. Great job!" << endl;
+    }
+
+    return 0;
+}
