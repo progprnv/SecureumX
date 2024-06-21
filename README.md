@@ -45,6 +45,10 @@
 
 ## Usage
 
+Use Any IDE and Just Ctrl C + Ctrl V my source code...u know what to do next hehe:))
+
+OR
+
 1. Run the compiled program:
     ```bash
     ./SecureumX
