@@ -29,12 +29,16 @@ bool hasDigit(const string& password) {
     return false;
 }
 
+
+
 bool hasSpecialChar(const string& password) {
     for (char ch : password) {
         if (ispunct(ch)) return true;
     }
     return false;
 }
+
+
 
 string checkPasswordStrength(const string& password) {
     int length = password.length();
