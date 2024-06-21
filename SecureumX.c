@@ -11,12 +11,16 @@ bool hasUppercase(const string& password) {
     return false;
 }
 
+
+
 bool hasLowercase(const string& password) {
     for (char ch : password) {
         if (islower(ch)) return true;
     }
     return false;
 }
+
+
 
 bool hasDigit(const string& password) {
     for (char ch : password) {
