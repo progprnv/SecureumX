@@ -31,6 +31,7 @@ bool hasDigit(const string& password) {
 
 
 
+
 bool hasSpecialChar(const string& password) {
     for (char ch : password) {
         if (ispunct(ch)) return true;
